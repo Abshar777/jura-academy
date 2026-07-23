@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jura Academy — Legal education, without limits</title>
+  <meta name="description" content="Jura Academy trains the next generation of lawyers with practice-ready programs, expert faculty, and a modern legal learning platform." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ 1. ANNOUNCEMENT BAR ============ -->
+  <div class="announce" id="announce">
+    <span class="announce__text">
+      New — Autumn 2026 intake is now open.
+      <a href="#admissions" class="announce__link">Apply before Sept 1 →</a>
+    </span>
+    <button class="announce__close" aria-label="Dismiss announcement">&times;</button>
+  </div>
+
+  <!-- ============ 1. NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo" aria-label="Jura Academy home">
+        <span class="nav__mark">J</span>
+        <span class="nav__word">JURA ACADEMY</span>
+      </a>
+
+      <nav class="nav__menu" aria-label="Primary">
+        <a href="#programs">Programs</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#resources">Resources</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a href="#login" class="nav__login">Log in</a>
+        <a href="#apply" class="btn btn--dark">Apply now</a>
+      </div>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ 2. HERO ============ -->
+  <main>
+    <section class="hero">
+      <div class="hero__inner">
+        <a href="#platform" class="eyebrow">
+          <span class="eyebrow__dot"></span>
+          Introducing the Jura Learning Platform
+          <span class="eyebrow__arrow">→</span>
+        </a>
+
+        <h1 class="hero__title">Legal education,<br />without limits.</h1>
+
+        <p class="hero__sub">
+          Practice-ready programs, world-class faculty, and a modern platform that
+          turns aspiring lawyers into confident practitioners — at your own pace.
+        </p>
+
+        <div class="hero__cta">
+          <a href="#apply" class="btn btn--dark btn--lg">Start your application</a>
+          <a href="#tour" class="btn btn--ghost btn--lg">Book a campus tour</a>
+        </div>
+
+        <!-- Floating product mockup -->
+        <div class="mockup" id="mockup">
+          <div class="mockup__bar">
+            <span class="mockup__dot"></span>
+            <span class="mockup__dot"></span>
+            <span class="mockup__dot"></span>
+            <span class="mockup__tab">My study plan</span>
+          </div>
+          <div class="mockup__body">
+            <div class="mockup__row">
+              <span class="mockup__check mockup__check--done"></span>
+              <span class="mockup__label">Review this week's case briefs</span>
+              <span class="mockup__badge mockup__badge--green">Done</span>
+            </div>
+            <div class="mockup__row">
+              <span class="mockup__check"></span>
+              <span class="mockup__label">Draft memorandum — Contract Law</span>
+              <span class="mockup__badge">Due Fri</span>
+            </div>
+            <div class="mockup__row">
+              <span class="mockup__check"></span>
+              <span class="mockup__label">Moot court prep with faculty mentor</span>
+              <span class="mockup__badge mockup__badge--amber">Live</span>
+            </div>
+            <div class="mockup__row">
+              <span class="mockup__check"></span>
+              <span class="mockup__label">Constitutional Law — Module 4 quiz</span>
+              <span class="mockup__badge">Assigned</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Placeholders for the remaining sections (built next) ===== -->
+    <section id="programs" class="placeholder"><p>Programs — coming next</p></section>
+    <section id="faculty" class="placeholder"><p>Faculty · Impact · Voices · Accreditation · CTA · Footer — coming next</p></section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
