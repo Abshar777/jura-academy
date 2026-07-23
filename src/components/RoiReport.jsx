@@ -8,7 +8,7 @@ function BgVideo({ src }) {
     if (!v) return
     v.muted = true
     const p = v.play()
-    if (p && p.catch) p.catch(() => {})
+    if (p && p.catch) p.catch(() => { })
   }, [])
   return (
     <video
@@ -18,7 +18,7 @@ function BgVideo({ src }) {
       autoPlay
       muted
       loop
-      controls={none}
+      controls={"none"}
       playsInline
       preload="auto"
       aria-hidden

@@ -8,7 +8,7 @@ function VideoBg() {
     if (!v) return
     v.muted = true
     const p = v.play()
-    if (p && p.catch) p.catch(() => {})
+    if (p && p.catch) p.catch(() => { })
   }, [])
   return (
     <video
@@ -17,9 +17,9 @@ function VideoBg() {
       src={assets.heroVideo}
       autoPlay
       muted
-      controls={none}
+      controls={"none"}
       loop
-      
+
       playsInline
       preload="auto"
     />
