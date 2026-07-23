@@ -11,6 +11,7 @@ import Vision from './components/Vision.jsx'
 import FinalCta from './components/FinalCta.jsx'
 import Footer from './components/Footer.jsx'
 import CallButton from './components/CallButton.jsx'
+import ScrollFX from './components/ScrollFX.jsx'
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
       </main>
       <Footer />
       <CallButton />
+      <ScrollFX />
     </>
   )
 }
