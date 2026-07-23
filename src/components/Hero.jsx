@@ -17,7 +17,9 @@ function VideoBg() {
       src={assets.heroVideo}
       autoPlay
       muted
+      controls={none}
       loop
+      
       playsInline
       preload="auto"
     />

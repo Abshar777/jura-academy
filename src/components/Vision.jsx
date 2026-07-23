@@ -18,6 +18,7 @@ function VisionVideo({ src }) {
       autoPlay
       muted
       loop
+      controls={none}
       playsInline
       preload="auto"
     />
